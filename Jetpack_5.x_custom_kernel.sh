@@ -67,8 +67,8 @@ cat <<EOF
 *                                  *
 ************************************
 EOF
-
 	cp -r ./build/arch/arm64/boot/dts/nvidia/* $JETPACK/Linux_for_Tegra/kernel/dtb/
+	exit 1
 elif [ $value == '2' ]; then
 cat <<EOF
 ************************************
